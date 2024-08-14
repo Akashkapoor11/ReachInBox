@@ -1,7 +1,5 @@
 # ReachInBox
 
-The goal of the project is to create a workable online application for ReachInbox.
-
 Guidelines:
 
 1. Implementation of the Login Page:
