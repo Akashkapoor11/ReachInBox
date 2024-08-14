@@ -1,7 +1,5 @@
 # ReachInBox
 
-Guidelines:
-
 1. **Implementation of the Login Page**:
    
    Created and build a login page using the template that has been supplied. Users' initial point of contact will be the login page.
