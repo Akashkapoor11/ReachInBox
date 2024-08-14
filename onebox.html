@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail-like Interface</title>
+    <link rel="stylesheet" href="cascading.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 012101.png" width="50px" height="50px">
+        <h1>Onebox</h1>
+        <div class="header-container">
+            
+            <button id="toggle-dark-mode" title="Toggle Dark Mode">🌙</button>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Tim's Workplace ">
+            </div>
+        </div>
+    </header>
+    
+    <div class="main">
+        <aside class="sidebar">
+            <div class="sidebar-item" title="Compose">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 012434.png"></span>
+               
+            </div>
+            <div class="sidebar-item" title="Inbox">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 012628.png"></span>
+                
+            </div>
+            <div class="sidebar-item" title="Sent">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 012724.png"></span>
+               
+            </div>
+            <div class="sidebar-item" title="Trash">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 012819.png"></span>
+                
+            </div>
+            <div class="sidebar-item" title="Spam">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 012908.png"></span>
+                
+            </div>
+            <div class="sidebar-item" title="Outbox">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 013048.png"></span>
+               
+            </div>
+            <div class="sidebar-item" title="Important">
+                <span><img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-14 013134.png"></span>
+                
+            </div>
+        </aside>
+        
+        <div class="content">
+            <div class="email-list" id="emailList">
+                <!-- Email list items will be inserted here by JavaScript -->
+            </div>
+            
+            <div class="email-detail" id="emailDetail">
+                <!-- Email detail content will be inserted here by JavaScript -->
+            </div>
+            
+            <div class="reply-box" id="replyBox">
+                <textarea id="replyText" placeholder="Type your reply here..."></textarea>
+                <button onclick="sendReply()">Send Reply</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
