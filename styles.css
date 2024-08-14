@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 350px;
+    background-color: #100d0d; /* Grey background */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    float: left;
+    margin-left: -270px;
+  
+}
+
+.account-box {
+    background-color:#100d0d;
+
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color:white;
+}
+
+.google-signup {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #100d0d;
+    
+    
+}
+.create-account{
+    height:40px;
+   
+}
+.container {
+    
+    color: white;
+    margin-bottom: 600px;
+   
+}
+.line{
+    width:100%;
+    border:1px solid white;
+    height:1px;
+    background-color: white;
+}
+.b{
+    color: white;
+    font-size: 5px;
+    margin-top: 670px;
+    margin-left: -270px;
+}
+
+
+
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.create-account {
+    background-color: #1c426b; /* Blue background */
+    width: 170px;
+}
+
+.create-account:hover {
+    background-color: #0056b3;
+}
+
+.sign-in-text {
+    margin-top: 15px;
+    color: #333;
+}
+
+.sign-in-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-in-text a:hover {
+    text-decoration: underline;
+}
