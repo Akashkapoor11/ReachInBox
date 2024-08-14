@@ -58,8 +58,12 @@ Guidelines:
 **ONEBOX PAGE -**
 ![Screenshot 2024-08-14 172903](https://github.com/user-attachments/assets/e3c839e8-f527-4621-a160-939a63c486cd)
 
-**After Toggling -**
+**AFTER TOGGLING -**
 ![Screenshot 2024-08-14 172916](https://github.com/user-attachments/assets/7eeb499d-a42c-4e91-9c32-51fad3088836)
+
+**CLICKING ON THE SENT -**
+![Screenshot 2024-08-14 173425](https://github.com/user-attachments/assets/98583247-7be3-4216-8bea-2186cc5000bd)
+
 
 
 
