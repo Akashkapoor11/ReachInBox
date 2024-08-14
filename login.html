@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-13 231850.png">
+        <div class="line"></div>
+    </div>
+    <div class="login-container">
+        
+        <div class="account-box">
+            <h2>Create New Account</h2>
+            <div id="signup" class="google-signup">
+                <img src="c:\Users\Lappy\Pictures\Screenshots\Screenshot 2024-08-13 221357.png" alt="Google" class="google-icon">
+                Sign up with Google
+            </div>
+            <button class="create-account"><a href="C:\Users\Lappy\OneDrive\Documents\new\onebox.html">Create an Account</button></a>
+            <p class="sign-in-text">Already have an account? <a href="#">Sign in</a></p>
+        </div>
+    </div>
+    
+    <div class="b">
+        <h1>@2023 Reachinbox.All rights reserved.</h1>
+    </div>
+    <script>
+        function handleCredentialResponse(response) {
+            // Handle the response from Google Sign-In
+            const id_token = response.credential;
+            
+            // Send token to your server for verification
+            fetch('/google-login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id_token: id_token })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.href = '/onebox';
+                } else {
+                    alert('Login failed');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        window.onload = function() {
+            google.accounts.id.initialize({
+                client_id: 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com', // Replace with your client ID
+                callback: handleCredentialResponse
+            });
+
+            google.accounts.id.renderButton(
+                document.getElementById('signup'),
+                { theme: 'outline', size: 'large' }  // Customize the button
+            );
+        };
+    </script>
+
+</body>
+</html>
