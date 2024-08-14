@@ -31,13 +31,8 @@ Guidelines:
    
    -The Reply box should appear after pressing "R".
 
-5. **Personal Text Editor**:
    
-   -Create a personalised text editor with extra features.
-   
-   -Customise the editor with buttons like "Variables" and "SAVE."
-   
-6. **Functionality of Reply**:
+5. **Functionality of Reply**:
    
    -Enable users to reply to a discussion by implementing the Reply functionality.
    
@@ -47,7 +42,7 @@ Guidelines:
    
       --Make sure that the reply appears once you hit the "Send" button.
    
-7. **Using the Light and Dark Modes**:
+6. **Using the Light and Dark Modes**:
     
     -Offer choices for both bright and dim modes to improve accessibility and user experience.
 
