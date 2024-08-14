@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #3a3f44;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    margin-left: 1000px;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    color: white;
+    margin-left: 1px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 110px;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 70px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+    background-color: #e0e0e0;
+}
+
+.sidebar-item span {
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.email-detail {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.reply-box {
+    display: none;
+    margin-top: 10px;
+}
+
+.reply-box textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.reply-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark-mode .sidebar {
+    background-color: #444;
+}
+
+.dark-mode .email-detail {
+    background-color: #555;
+    border-color: #666;
+}
+
+.dark-mode .header-container {
+    background-color: #222;
+}
+
+.dark-mode .search-bar input {
+    background-color: #555;
+    color: #ffffff;
+}
