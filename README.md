@@ -50,3 +50,16 @@ Guidelines:
 7. **Using the Light and Dark Modes**:
     
     -Offer choices for both bright and dim modes to improve accessibility and user experience.
+
+
+**LOGIN PAGE -**
+![Screenshot 2024-08-14 172840](https://github.com/user-attachments/assets/26fc4976-b19d-4831-a245-8161c9e9ebbb)
+
+**ONEBOX PAGE -**
+![Screenshot 2024-08-14 172903](https://github.com/user-attachments/assets/e3c839e8-f527-4621-a160-939a63c486cd)
+
+**After Toggling -**
+![Screenshot 2024-08-14 172916](https://github.com/user-attachments/assets/7eeb499d-a42c-4e91-9c32-51fad3088836)
+
+
+
