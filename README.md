@@ -3,6 +3,7 @@
 Guidelines:
 
 1. **Implementation of the Login Page**:
+   
    Created and build a login page using the template that has been supplied. Users' initial point of contact will be the login page.
 
 2. **Navigation of the Onebox Screen**:
@@ -36,5 +37,5 @@ Guidelines:
    -Make sure that the reply appears once you hit the "Send" button.
    
 7. **Using the Light and Dark Modes**:
-8. 
+ 
    -Offer choices for both bright and dim modes to improve accessibility and user experience.
